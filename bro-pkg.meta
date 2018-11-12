@@ -1,0 +1,7 @@
+[package]
+description = Add OUI lookup to Bro.
+tags = oui, mac, dhcp
+version = 0.1
+script_dir = scripts
+depends = 
+    bro > 2.5.5
