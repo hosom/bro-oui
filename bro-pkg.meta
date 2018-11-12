@@ -4,4 +4,4 @@ tags = oui, mac, dhcp
 version = 1.0
 script_dir = scripts
 depends = 
-    bro > 2.5.5
+    bro >= 2.5.5
