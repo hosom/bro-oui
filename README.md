@@ -45,3 +45,7 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 ```
+
+## A Note on oui.dat
+
+Local modifications to oui.dat will be overwritten by updates of this plugin. Additionally, by running `oui.py`, the entire oui.dat file will be overwritten. This file is not meant to contain local modifications.
