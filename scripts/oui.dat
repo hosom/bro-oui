@@ -5136,6 +5136,8 @@ a4:7b:2c	Nokia
 00:d0:f6	Nokia
 48:f8:e1	Nokia
 50:e0:ef	Nokia
+3c:f0:11	Intel Corporate
+08:ec:f5	Cisco Systems, Inc
 0c:6f:9c	Shaw Communications Inc.
 18:01:e3	Bittium Wireless Ltd
 c0:ac:54	Sagemcom Broadband SAS
@@ -10278,13 +10280,13 @@ e8:93:63	Nokia
 10:e8:78	Nokia
 48:f7:f1	Nokia
 cc:66:b2	Nokia
-4c:c9:4f	Nokia
 1c:ea:1b	Nokia
 04:cf:8c	XIAOMI Electronics,CO.,LTD
 40:31:3c	XIAOMI Electronics,CO.,LTD
 7c:49:eb	XIAOMI Electronics,CO.,LTD
 e0:09:bf	SHENZHEN TONG BO WEI TECHNOLOGY Co.,LTD
 00:0c:17	AJA Video Systems Inc
+4c:c9:4f	Nokia
 58:46:e1	Baxter International Inc
 00:d0:bd	Lattice Semiconductor Corp. (LPA)
 f0:82:61	Sagemcom Broadband SAS
@@ -15326,8 +15328,9 @@ d4:e3:3f	Nokia
 a4:92:cb	Nokia
 50:40:61	Nokia
 f8:13:08	Nokia
-90:7a:58	Zegna-Daidong Limited
 f4:bc:da	Shenzhen Jingxun Software Telecommunication Technology Co.,Ltd
+90:7a:58	Zegna-Daidong Limited
+38:00:25	Intel Corporate
 d8:6c:e9	Sagemcom Broadband SAS
 3c:81:d8	Sagemcom Broadband SAS
 2c:e4:12	Sagemcom Broadband SAS
@@ -20452,14 +20455,16 @@ cc:e0:c3	EXTEN Technologies, Inc.
 8c:53:d2	China Mobile Group Device Co.,Ltd.
 48:5d:36	Verizon 
 50:a0:a4	Nokia
+fc:2f:aa	Nokia
+28:6c:07	XIAOMI Electronics,CO.,LTD
+2c:55:7c	Shenzhen YOUHUA Technology Co., Ltd
 7c:41:a2	Nokia
 20:e0:9c	Nokia
 40:7c:7d	Nokia
 90:3a:a0	Nokia
 70:25:26	Nokia
 bc:52:b4	Nokia
-fc:2f:aa	Nokia
-28:6c:07	XIAOMI Electronics,CO.,LTD
+d8:8d:c8	Atil Technology Co., LTD
 2c:39:96	Sagemcom Broadband SAS
 00:54:bd	Swelaser AB
 00:57:d2	Cisco Systems, Inc
@@ -25575,4 +25580,5 @@ f8:da:e2	NDC Technologies
 34:aa:99	Nokia
 c4:08:4a	Nokia
 24:21:24	Nokia
+d0:ab:d5	Intel Corporate
 0c:54:b9	Nokia
