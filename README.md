@@ -1,10 +1,10 @@
 # OUI
 
-This module adds an OUI lookup to Bro IDS. Additionally, it comes with a script to maintain a Bro input file containing OUI data pulled from IEEE.
+This module adds an OUI lookup to Zeek IDS. Additionally, it comes with a script to maintain a Zeek input file containing OUI data pulled from IEEE.
 
 ## Performing an OUI Lookup
 
-```bro
+```zeek
 ##! This script extends dhcp.log to include the manufacturer that a 
 ##! mac address is associated with as the client_vendor field.
 module OUI;
@@ -36,8 +36,8 @@ To update the OUI data file, run the included `oui.py` script and specify the pa
 usage: oui.py [-h] path
 
 Download and parse a listing of Organizationally unique identifiers, then
-export the listing as a Bro input file. This can then be used with the OUI
-module to allow for OUI lookups in Bro.
+export the listing as a Zeek input file. This can then be used with the OUI
+module to allow for OUI lookups in Zeek.
 
 positional arguments:
   path        Where to place the exported input file.
@@ -48,4 +48,4 @@ optional arguments:
 
 ## A Note on oui.dat
 
-Local modifications to oui.dat will be overwritten by updates of this plugin. Additionally, by running `oui.py`, the entire oui.dat file will be overwritten. This file is not meant to contain local modifications.
+By default, local modifications to oui.dat will be overwritten by updates of this plugin. Additionally, by running `oui.py`, the entire oui.dat file will be overwritten. This file is not meant to contain local modifications.  To prevent local modifications from being overwritten redefine the `OUI::oui_data` variable in `local.zeek` to a file outside of the package directory.  This will also take advantage of the input framework and reread any changes without having to redeploy Zeek.
