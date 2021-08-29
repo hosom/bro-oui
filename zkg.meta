@@ -1,7 +1,7 @@
 [package]
-description = Add OUI lookup to Bro.
+description = Add OUI lookup to Zeek.
 tags = oui, mac, dhcp
 version = 1.0.3
 script_dir = scripts
 depends = 
-    bro >=2.5.5
+    zeek >=2.5.5

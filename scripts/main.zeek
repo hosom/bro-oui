@@ -43,7 +43,7 @@ function lookup_oui(l2_addr: string): string
     return vendors[prefix]$vendor;
     }
 
-event bro_init()
+event zeek_init()
     {
     # create an input file to be used to learn OUI data. This input
     # reads the data into the vendors table and will reread the 
