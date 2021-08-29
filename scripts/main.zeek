@@ -26,6 +26,10 @@ export {
     ## lookup_oui is used to lookup a mac address and return the 
     ## name of an organization that has manufactured the device.
     global lookup_oui: function(l2_addr: string): string;
+
+    ## path to oui data file
+    ## defaults to oui.dat in the package directory
+    global oui_data = @DIR + "/oui.dat" &redef;
 }
 
 # lookup_oui is used to lookup a mac address and return the name
@@ -48,7 +52,7 @@ event zeek_init()
     # create an input file to be used to learn OUI data. This input
     # reads the data into the vendors table and will reread the 
     # table if the file is rewritten.
-    Input::add_table([$source=fmt("%s/oui.dat", @DIR), 
+    Input::add_table([$source=oui_data,
         $name="vendors", 
         $idx=Idx, 
         $val=Val, 

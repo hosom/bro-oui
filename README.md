@@ -48,4 +48,4 @@ optional arguments:
 
 ## A Note on oui.dat
 
-Local modifications to oui.dat will be overwritten by updates of this plugin. Additionally, by running `oui.py`, the entire oui.dat file will be overwritten. This file is not meant to contain local modifications.
+By default, local modifications to oui.dat will be overwritten by updates of this plugin. Additionally, by running `oui.py`, the entire oui.dat file will be overwritten. This file is not meant to contain local modifications.  To prevent local modifications from being overwritten redefine the `OUI::oui_data` variable in `local.zeek` to a file outside of the package directory.  This will also take advantage of the input framework and reread any changes without having to redeploy Zeek.
